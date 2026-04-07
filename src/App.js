@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom"; // ← HashRouter
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import BookDetails from "./pages/BookDetails";
 import Navbar from "./components/Navbar";
 import AddBook from "./pages/AddBook";
@@ -9,14 +9,13 @@ import Home from "./pages/Home";
 function App() {
   return (
     <HashRouter>
-      {" "}
-      {/* ← changed */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/add" element={<AddBook />} />
         <Route path="/book/:id" element={<BookDetails />} />
         <Route path="/edit/:id" element={<EditBook />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </HashRouter>
   );
