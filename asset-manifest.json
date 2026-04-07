@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KARTHICK-739/mini-project-12-library-system/static/css/main.27dbf77c.css",
+    "main.js": "/KARTHICK-739/mini-project-12-library-system/static/js/main.9a4e675f.js",
+    "index.html": "/KARTHICK-739/mini-project-12-library-system/index.html",
+    "main.27dbf77c.css.map": "/KARTHICK-739/mini-project-12-library-system/static/css/main.27dbf77c.css.map",
+    "main.9a4e675f.js.map": "/KARTHICK-739/mini-project-12-library-system/static/js/main.9a4e675f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27dbf77c.css",
+    "static/js/main.9a4e675f.js"
+  ]
+}
